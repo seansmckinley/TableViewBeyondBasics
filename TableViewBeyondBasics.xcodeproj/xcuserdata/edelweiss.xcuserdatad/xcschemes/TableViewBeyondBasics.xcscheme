@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0610"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "3E736B7B18C8EF070054D01E"
                BuildableName = "TableViewBeyondBasics.app"
                BlueprintName = "TableViewBeyondBasics"
+               ReferencedContainer = "container:TableViewBeyondBasics.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3E736B9C18C8EF070054D01E"
+               BuildableName = "TableViewBeyondBasicsTests.xctest"
+               BlueprintName = "TableViewBeyondBasicsTests"
                ReferencedContainer = "container:TableViewBeyondBasics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

@@ -7,12 +7,27 @@
 //
 
 #import "AppDelegate.h"
+#import "DownloadAssistant.h"
+#import "MoviesDataSource.h"
+#import "MoviesTableViewController.h"
+#import "TheatersDataSource.h"
+#import "TheatersTableViewController.h"
+
+@interface AppDelegate()
+@property (nonatomic) DownloadAssistant *downloadAssistant;
+@property (nonatomic) MoviesDataSource *dataSource;
+@end
+
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    
+//    MoviesTableViewController *mvc = [[MoviesTableViewController alloc] init];
+    TheatersTableViewController *mvc = [[TheatersTableViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:mvc];
+    [self.window setRootViewController:nc];
     return YES;
 }
 							
