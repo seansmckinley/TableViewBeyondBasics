@@ -5,6 +5,7 @@
 //  Created by AAK on 2/24/14.
 //  Copyright (c) 2014 Ali Kooshesh. All rights reserved.
 //
+//  Edited by Sean McKinley
 
 #import <Foundation/Foundation.h>
 #import "Movie.h"

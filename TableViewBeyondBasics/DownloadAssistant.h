@@ -5,6 +5,7 @@
 //  Created by Ali Kooshesh on 12/25/13.
 //  Copyright (c) 2013 Ali Kooshesh. All rights reserved.
 //
+//  Edited by Sean McKinley
 
 #import <Foundation/Foundation.h>
 
